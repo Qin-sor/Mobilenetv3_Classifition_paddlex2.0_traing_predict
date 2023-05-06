@@ -7,7 +7,11 @@ conda create env -f env.yaml
 ```
 
 ## Prepare your dataset
-* I believe you have been found the dir namely train, you should put what you want training in your prj under it , The structure is as follows:
+* Create the folders:
+```shell
+mkdir train log output
+```
+* After making dirs, I believe you have been found the dir namely train, you should put what you want training in your prj under it , The structure is as follows:
 ```
 - train/
     -- class1/
